@@ -188,6 +188,13 @@ ul li a{
     transition: .3s;
 }
 
+.fa-bars{
+    position: absolute;
+    left: 1rem;
+    font-size: 5rem;
+    display: none;
+}
+
 
 
 /*===================*/
@@ -321,6 +328,7 @@ ul li a{
 .video {
     position: absolute;
     right: 5rem;
+    z-index: 1;
 }
 /*Video Ends*/
 

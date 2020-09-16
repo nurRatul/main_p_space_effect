@@ -1,9 +1,10 @@
 /*-- NEVIGATION --*/
 var nev = document.getElementById('nev');
+var width= window.outerWidth;
 
 
-
-window.addEventListener("scroll",function(){
+if(width >= 595){
+   window.addEventListener("scroll",function(){
     let offsetY= window.pageYOffset;
     if(offsetY >= 58){
         nev.style.position= 'sticky';
@@ -13,6 +14,14 @@ window.addEventListener("scroll",function(){
         nev.style.top= '50px';
     }
 })
+}else if(width < 595){
+    window.addEventListener("scroll",function(){
+    let offsetY= window.pageYOffset;
+        nev.style.position= 'grid';
+    })
+}
+
+
 
 /*-- INF_1 --*/
 
