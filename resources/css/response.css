@@ -1,0 +1,46 @@
+@media screen and (max-width: 700px){
+    html {
+        margin: 0;
+        padding: 0;
+        font-size: 40%;
+   }
+    
+    .inf_1 {
+        left: 5rem;
+    }
+    
+    .inf_2 {
+        right: 5rem;
+    }   
+    
+    .less_1 {
+        left: 48rem;
+    }
+    .less_2 {
+        right: 48rem;
+        top: 108rem;
+    }
+
+    .video {
+        width: 50rem;
+        height: auto;
+    }
+    h1 {
+        top: 45rem;
+        left: 45rem;
+    }
+    .next_head {
+        top: 50rem;
+        left: 45rem;
+    }
+}
+
+@media screen and (max-width: 700px){
+    .less_1 {
+        z-index: 6;
+    }
+    .less_2 {
+        z-index: 6;
+    }
+    
+}
